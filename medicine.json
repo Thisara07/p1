@@ -1,0 +1,61 @@
+{
+    "medicines": [
+      {
+        "category": "Analgesics",
+        "items": [
+          { "id": "paracetamol", "name": "Paracetamol $5", "price": 5, "image": "/Images/paracetamol.jpg" },
+          { "id": "ibuprofen", "name": "Ibuprofen $7", "price": 7, "image": "/Images/ibuprofen.jpg" },
+          { "id": "aspirin", "name": "Aspirin $6", "price": 6, "image": "/Images/aspirin.jpg" },
+          { "id": "diclofenac", "name": "Diclofenac $8", "price": 8, "image": "/Images/diclofenac.jpg" },
+          { "id": "naproxen", "name": "Naproxen $9", "price": 9, "image": "/Images/naproxen.jpg" },
+          { "id": "tramadol", "name": "Tramadol $12", "price": 12, "image": "/Images/tramadol.png" },
+          { "id": "morphine", "name": "Morphine $15", "price": 15, "image": "/Images/morphine.jpg" }
+        ]
+      },
+      {
+        "category": "Antibiotics",
+        "items": [
+          { "id": "amoxicillin", "name": "Amoxicillin $10", "price": 10, "image": "/Images/Antibiotics.png" },
+          { "id": "ciprofloxacin", "name": "Ciprofloxacin $15", "price": 15, "image": "/Images/Antibiotics.png" },
+          { "id": "azithromycin", "name": "Azithromycin $12", "price": 12, "image": "/Images/Antibiotics.png" },
+          { "id": "doxycycline", "name": "Doxycycline $11", "price": 11, "image": "/Images/Antibiotics.png" },
+          { "id": "levofloxacin", "name": "Levofloxacin $14", "price": 14, "image": "/Images/Antibiotics.png" },
+          { "id": "metronidazole", "name": "Metronidazole $13", "price": 13, "image": "/Images/Antibiotics.png" }
+        ]
+      },
+      {
+        "category": "Antidepressants",
+        "items": [
+          { "id": "sertraline", "name": "Sertraline $12", "price": 12, "image": "/Images/Antidepressants.jpg" },
+          { "id": "fluoxetine", "name": "Fluoxetine $14", "price": 14, "image": "/Images/Antidepressants.jpg" },
+          { "id": "citalopram", "name": "Citalopram $13", "price": 13, "image": "/Images/Antidepressants.jpg" },
+          { "id": "escitalopram", "name": "Escitalopram $15", "price": 15, "image": "/Images/Antidepressants.jpg" },
+          { "id": "venlafaxine", "name": "Venlafaxine $16", "price": 16, "image": "/Images/Antidepressants.jpg" },
+          { "id": "duloxetine", "name": "Duloxetine $17", "price": 17, "image": "/Images/Antidepressants.jpg" }
+        ]
+      },
+      {
+        "category": "Antihistamines",
+        "items": [
+          { "id": "loratadine", "name": "Loratadine $8", "price": 8, "image": "/Images/Antihistamines.jpg" },
+          { "id": "cetirizine", "name": "Cetirizine $9", "price": 9, "image": "/Images/Antihistamines.jpg" },
+          { "id": "diphenhydramine", "name": "Diphenhydramine $7", "price": 7, "image": "/Images/Antihistamines.jpg" },
+          { "id": "fexofenadine", "name": "Fexofenadine $10", "price": 10, "image": "/Images/Antihistamines.jpg" },
+          { "id": "chlorpheniramine", "name": "Chlorpheniramine $6", "price": 6, "image": "/Images/Antihistamines.jpg" },
+          { "id": "desloratadine", "name": "Desloratadine $11", "price": 11, "image": "/Images/Antihistamines.jpg" }
+        ]
+      },
+      {
+        "category": "Antihypertensives",
+        "items": [
+          { "id": "amlodipine", "name": "Amlodipine $12", "price": 12, "image": "/Images/Antihypertensives.jpg" },
+          { "id": "lisinopril", "name": "Lisinopril $14", "price": 14, "image": "/Images/Antihypertensives.jpg" },
+          { "id": "atenolol", "name": "Atenolol $13", "price": 13, "image": "/Images/Antihypertensives.jpg" },
+          { "id": "losartan", "name": "Losartan $15", "price": 15, "image": "/Images/Antihypertensives.jpg" },
+          { "id": "hydrochlorothiazide", "name": "Hydrochlorothiazide $10", "price": 10, "image": "/Images/Antihypertensives.jpg" },
+          { "id": "enalapril", "name": "Enalapril $16", "price": 16, "image": "/Images/Antihypertensives.jpg" }
+        ]
+      }
+    ]
+  }
+  

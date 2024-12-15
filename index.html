@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare Hospital </title>
+    <link rel="icon" href="Images/android-chrome-192x192.png" type ="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!--Start of nav bar-->
+   <header class="header">
+  
+    <img src="Images/android-chrome-192x192.png" class="logo" alt="hospital-logo">
+    <nav class="navbar a">
+        <a href="index.html">Home</a>
+        <a href="About.html">About</a>
+        <a href="Services.html">Services</a>
+        <a href="Doctors.html">Doctors</a>
+        <a href="Consulting.html">Reservation</a>
+        <a href="index.html">Pharmacy</a>
+      </nav>
+    
+   
+  </header>
+  <!--End of nav bar-->
+
+    <section class="banner" style="background-image: url(Images/banner-2.png);">
+        <div class="container">
+            <div class="banner-content">               
+                <h1>Order Your Meds</h1>
+            
+            </div>
+        </div>
+    </section>
+
+
+    <div id="search-container">
+        <input type="text" id="search-input" placeholder="Search for a medicine..." >
+        <button id="search-button">Search</button>
+    </div>
+    
+    <div id="filter-buttons" class="filter-container">
+        <button class="filter-button" data-category="all">All</button>
+        <button class="filter-button" data-category="analgesics">Analgesics</button>
+        <button class="filter-button" data-category="antibiotics">Antibiotics</button>
+        <button class="filter-button" data-category="antidepressants">Antidepressants</button>
+        <button class="filter-button" data-category="antihistamines">Antihistamines</button>
+        <button class="filter-button" data-category="antihypertensives">Antihypertensives</button>
+    </div>
+
+    <div id="medicine-sections">
+        <!-- Analgesics -->
+        <div id="medicine-section-analgesics" class="medicine-section">
+            <h2>Analgesics</h2>
+            <div class="scroll-container">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Antibiotics -->
+        <div id="medicine-section-antibiotics" class="medicine-section">
+            <h2>Antibiotics</h2>
+            <div class="scroll-container">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Antidepressants -->
+        <div id="medicine-section-antidepressants" class="medicine-section">
+            <h2>Antidepressants</h2>
+            <div class="scroll-container">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Antihistamines -->
+        <div id="medicine-section-antihistamines" class="medicine-section">
+            <h2>Antihistamines</h2>
+            <div class="scroll-container">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+        </div>
+
+        <!-- Antihypertensives -->
+        <div id="medicine-section-antihypertensives" class="medicine-section">
+            <h2>Antihypertensives</h2>
+            <div class="scroll-container">
+                <!-- Cards will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <h2>Order</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price per Unit</th>
+                <th>Total Price</th>
+            </tr>
+        </thead>
+        <tbody id="cart-items"></tbody>
+    </table>
+    <h3 class="Th3">Total Price: $<span id="total-price">0</span></h3>
+
+    <div class="actions">
+        <button id="buy-now-button">Buy Now</button>
+        <button id="save-favorites-button">Add to Favorites</button>
+        <button id="apply-favorites-button">Apply Favorites</button>
+        <button id="clear-favorites-button">Clear Favorites</button>
+
+    </div>
+
+    <!--Start of Footer-->
+<footer class="footer">
+    <div class="container-f">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Follow Us</h4>                
+              <a href="#"><img src="/Images/Insta-logo.png " class="icon" alt="Instagram logo"></a>
+              <a href="#"><img src="/Images/Facebook-logo.png" class="icon2" alt="Facebook logo"></a>
+              <a href="#"><img src="Images/Linked-in-logo.png" class="icon2" alt="Linked-in logo"></a>
+              <a href="#"><img src="Images/Twitter-logo-x-.png" class="icon2" alt="Twitter/X logo"></a>                       
+          </div>
+          
+            <h3>copyright © 2024 Healthcare Hospital All Rights Reserved</h3>         
+          
+      </div>
+    </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
