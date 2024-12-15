@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Images/android-chrome-192x192.png" type ="image/x-icon">
+    
+    <title>Checkout</title>
+</head>
+
+ <!--Start of nav bar-->
+ <header class="header">
+  
+    <img src="Images/android-chrome-192x192.png" class="logo" alt="logo">
+    
+   <nav class="navbar a">
+    <a href="index.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Services.html">Services</a>
+    <a href="Doctors.html">Doctors</a>
+    <a href="Consulting & Reservation.html">Reservation</a>
+    <a href="index.html">Pharmacy</a>
+  </nav>
+  </header>
+  <!--End of nav bar-->
+
+  <main><!--Main image -->
+    <section class="banner" style="background-image: url(./Images/banner.png);">
+        <div class="container">
+            <div class="banner-content">
+                
+                <h1>Enter Your Details</h1>
+            
+        </div>
+    </section>
+<body>
+    <h1>Checkout</h1>
+    <table id="checkout-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Items will be dynamically loaded here -->
+        </tbody>
+    </table>
+    <h2>Total: $<span id="total-price">0.00</span></h2>
+
+    </form>
+</section> 
+
+<!-- Start of pharmacy form-->
+
+<section-r>
+  <div class="container-c">
+    <h2>Pharmacy</h2>
+
+    <!-- Personal Details Section -->
+    <div class="form-group ">
+        <label for="full-name">Full Name:</label>
+        <input type="text" id="full-name" name="full-name" placeholder="Enter your name" required><!--The id uniquely identifies an element, which helps in linking labels, styling specific elements, and accessing/manipulating elements via JavaScript.-->
+    </div>                                                 <!--The name attribute in an HTML <input> element plays a critical role in form handling-->
+
+    <div class="form-group ">
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" placeholder="Enter your date of birth" required>
+    </div>
+
+    <div class="form-group ">
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender"  >
+            <option value="">Select</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" >
+    </div>
+
+    <div class="form-group">
+        <label for="phone-number">Phone Number:</label>
+        <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your phone number" required>
+    </div>
+
+    <div class="form-group">
+      <label for="prescription">Upload Prescription</label>
+      <input type="file" placeholder="prescription" >
+    </div>
+
+    <div class="form-group">
+        <label for="notes">Additional Notes:</label>
+        <textarea id="notes" name="notes" ></textarea>
+    </div>
+
+    <button class="button-f" type="submit"><a href="thank you.html">Place Order</a></button>
+  </div>
+  </div>
+
+</section-r>
+
+
+ <!--Start of Footer-->
+ <footer class="footer">
+    <div class="container-f">
+      <div class="row">
+        <div class="footer-col">
+          <h4>Follow Us</h4>                
+          <a href="#"><img src="/Images/Insta-logo.png " class="icon" alt="Instagram logo"></a>
+          <a href="#"><img src="/Images/Facebook-logo.png" class="icon2" alt="Facebook logo"></a>
+          <a href="#"><img src="Images/Linked-in-logo.png" class="icon2" alt="Linked-in logo"></a>
+          <a href="#"><img src="Images/Twitter-logo-x-.png" class="icon2" alt="Twitter/X logo"></a>                       
+          </div>
+          
+            <h3>copyright © 2024 Healthcare Hospital All Rights Reserved</h3>         
+          
+      </div>
+    </div>
+    </footer>
+    
+
+<script src="checkout.js"></script>
+</body>
+</html>
